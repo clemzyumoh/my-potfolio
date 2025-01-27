@@ -42,9 +42,9 @@ const Section2 = () => {
           </motion.h1>
           <motion.p
             variants={childVariant}
-            className="text-center text-xl sm:py-3">
+            className="text-center md:w-[600px] mx-3 text-lg md:text-xl sm:py-3">
             We put your ideas and thus your wishes in the form of a unique web
-            project that <br /> inspires you and you customers.
+            project that inspires you and you customers.
           </motion.p>
         </motion.div>
         <motion.div className="flex justify-center items-center flex-col lg:mx-28 md:mx-5 my-10 ">

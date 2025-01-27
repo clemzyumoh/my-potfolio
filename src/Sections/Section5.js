@@ -51,7 +51,7 @@ const Section5 = () => {
           </h1>
           <p className="text-center w-[90vw]">
             We put your ideas and thus your wishes in the form of a unique web
-            <br />
+            
             project that inspires you and you customers.
           </p>
         </motion.div>

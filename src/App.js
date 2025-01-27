@@ -27,8 +27,8 @@ function App() {
 
 
   return (
-    <div className="wrapper    ">
-      <main className="  h-screen pb-14 lg:pb-0 text-white relative ">
+    <div className="wrapper ">
+      <main className="  h-screen pb-14 lg:pb-0 text-white relative overflow-x-clip ">
         {loading && <Loading />}
         <BlurEffect />
         <Nav />

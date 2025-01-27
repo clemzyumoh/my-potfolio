@@ -13,18 +13,18 @@ const Section1 = () => {
   return (
     <div
       id="Section1"
-      className="lg:mt-20 mt-20 py-20 relative w-[100vw] flex items-center justify-center mx-0 "
+      className="lg:mt-20 mt-20 py-20 relative w-[100vw] flex items-center justify-center mx-0 overflow-x-hidden"
     >
       <h1 className="  z-0   absolute text-[20rem] font-bold text-[#1e102e] p-8 animate-pulse scale-animation  ">
         HI
       </h1>
       <div className="z-10 flex items-center justify-between w-[90vw] flex-col lg:flex-row md:flex-row  ">
-        <div className="lg:ml-12 ">
+        <div className="lg:ml-12 "> 
           {" "}
           <h2 className="font-bold text-2xl lg:text-4xl text-neutral-100">
             I am Clement Umoh
           </h2>
-          <h1 className="font-extrabold text-5xl lg:text-7xl leading-[55px] my-5 lg:leading-normal mb-3 bg-gradient-to-r from-[#8750f7] via-[#885ede] to-white bg-clip-text text-transparent">
+          <h1 className="font-extrabold md:text-5xl text-3xl lg:text-7xl leading-[55px] my-5 lg:leading-normal mb-3 bg-gradient-to-r from-[#8750f7] via-[#885ede] to-white bg-clip-text text-transparent">
             Software Developer
           </h1>
           <div className="lg:hidden my-6 ">
@@ -35,9 +35,9 @@ const Section1 = () => {
               alt="avater"
             />
           </div>
-          <p className="text-xl text-neutral-300 leading-7 mb-10">
+          <p className="text-xl text-center md:text-left lg:tracking-wider text-neutral-300 lg:text-xl tracking-wide md:w-[400px] leading-7 mb-10">
             I am a Passionate Frontend Developer,
-            <br /> I turn ideas into stunning,user-friendly and <br />{" "}
+             I turn ideas into stunning, user-friendly and {" "}
             responsive web applications.
           </p>
           <div className="flex items-center justify-start flex-col lg:flex-row md:mr-40  ">
