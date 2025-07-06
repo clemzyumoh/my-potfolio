@@ -1,13 +1,22 @@
 import React from "react";
 import Carousel from "../Components/Carousel";
 import projectImage1 from "../Assets/images/Project1.png";
-import projectImage2 from "../Assets/images/Project4.png";
+
 import projectImage3 from "../Assets/images/Project5.png";
 import projectImage4 from "../Assets/images/Project6.png";
 import projectImage5 from "../Assets/images/Project7.png";
+import projectImage6 from "../Assets/images/deworld.png";
+import projectImage7 from "../Assets/images/solapay.png";
 
 const Section3 = () => {
   const projectData = [
+    {
+      title: "SolaPay",
+      image: projectImage7,
+      description:
+        "A full-stack decentralized invoicing platform that allows users to create, send, and pay invoices using Solana Pay. Built with Next.js, TypeScript, Tailwind CSS, Redux, Node.js, Express, MongoDB, and Passport.js for secure authentication.",
+      link: "https://solapay-frontend.vercel.app/", // Link to the project
+    },
     {
       title: "MOVIE-ZONE",
       image: projectImage1,
@@ -15,18 +24,20 @@ const Section3 = () => {
         "Movie-Zone is a React and Redux-based website that showcases movie details such as ratings, cast, release date, director, and writer, along with trailers fetched from YouTube via APIs.",
       link: "https://movie-app-tan-one.vercel.app/", // Link to the project
     },
-    {
-      title: "Better",
-      image: projectImage2,
-      description: "Better.com clone website is a react and Next.js website",
-      link: "https://better-com.onrender.com/",
-    },
+
     {
       title: "Beach-Tix",
       image: projectImage3,
       description:
         "Beach-Tix is a dynamic website where users can purchase tickets for Beach-house parties and shop for merchandise like caps and t-shirts. Built with React, Tailwind, Node.js, Express.js, and MongoDB, it offers a seamless shopping and ticketing experience.",
       link: "https://beach-house-ticket.vercel.app/",
+    },
+    {
+      title: "DeWorld",
+      image: projectImage6,
+      description:
+        "A clean and modern landing page built for a decentralized community. Designed with React and Tailwind CSS, focused on speed, mobile responsiveness, and strong call-to-actions.",
+      link: "https://de-world.vercel.app/",
     },
     {
       title: "Virtual Vision",

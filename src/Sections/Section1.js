@@ -2,24 +2,23 @@ import React from "react";
 import { GoDownload } from "react-icons/go";
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa6";
-import { FaTwitter } from "react-icons/fa6";
-import Resume from "../Assets/images/Resume2.pdf"
-import img from "../Assets/images/clem0.jpg"
 
 
+import Resume from "../Assets/images/full-resume.pdf";
+import { BsTwitterX } from "react-icons/bs";
 
+import img from "../Assets/images/clem0.jpg";
 
 const Section1 = () => {
   return (
     <div
       id="Section1"
-      className="lg:mt-20 mt-20 py-20 relative w-[100vw] flex items-center justify-center mx-0 overflow-x-hidden"
-    >
+      className="lg:mt-20 mt-20 py-20 relative w-[100vw] flex items-center justify-center mx-0 overflow-x-hidden">
       <h1 className="  z-0   absolute text-[20rem] font-bold text-[#1e102e] p-8 animate-pulse scale-animation  ">
         HI
       </h1>
       <div className="z-10 flex items-center justify-between w-[90vw] flex-col lg:flex-row md:flex-row  ">
-        <div className="lg:ml-12 "> 
+        <div className="lg:ml-12 ">
           {" "}
           <h2 className="font-bold text-2xl lg:text-4xl text-neutral-100">
             I am Clement Umoh
@@ -36,29 +35,48 @@ const Section1 = () => {
             />
           </div>
           <p className="text-xl text-center md:text-left lg:tracking-wider text-neutral-300 lg:text-xl tracking-wide md:w-[400px] leading-7 mb-10">
-            I am a Passionate Frontend Developer,
-             I turn ideas into stunning, user-friendly and {" "}
-            responsive web applications.
+            I am a passionate full-stack web developer with a strong focus on
+            building scalable, performant, and user-centric web applications. I
+            specialize in modern technologies like React, Next.js, TypeScript,
+            and Node.js. .
           </p>
           <div className="flex items-center justify-start flex-col lg:flex-row md:mr-40  ">
-            <a href={Resume} target="_blank" rel="noopener noreferrer">
-              <button className="flex justify-between items-center mr-4 text-[#8750f7] text-lg rounded-full py-3 px-8 border-2 border-solid border-[#8750f7] hover:bg-[#2a1454] hover:text-white/80  transition-all hover:ease-in-out hover:delay-100 ">
+            <button>
+              <a
+                href={Resume}
+                className="flex justify-between items-center mr-4 text-[#8750f7] text-lg rounded-full py-3 px-8 border-2 border-solid border-[#8750f7] hover:bg-[#2a1454] hover:text-white/80  transition-all hover:ease-in-out hover:delay-100 "
+                target="_blank"
+                rel="noopener noreferrer">
                 Download CV
-                <div>
-                  <GoDownload className="ml-5" />
-                </div>
-              </button>
-            </a>
+                <GoDownload className="ml-5" />
+              </a>
+            </button>
 
             <div className="flex items-center justify-start mt-5 lg:mt-0">
               <div className=" flex justify-center items-center mx-4 w-10 h-10 rounded-full bg-transparent border-2 border-solid border-[#8750f7] text-[#8750f7] hover:bg-[#2a1454] hover:text-white/80 transition-all hover:ease-in-out hover:delay-100">
-                <FaGithub className="w-6 h-6 " />
+                <a
+                  href="https://github.com/clemzyumoh"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <FaGithub className="w-6 h-6 " />
+                </a>
               </div>
               <div className=" flex justify-center items-center mx-4 w-10 h-10 rounded-full bg-transparent border-2 border-solid border-[#8750f7] text-[#8750f7] hover:bg-[#2a1454] hover:text-white/80 transition-all hover:ease-in-out hover:delay-100">
-                <FaLinkedinIn className="w-6 h-6  " />
+                
+                <a
+                  href="https://www.linkedin.com/in/clement-umoh-a17b8629b/"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <FaLinkedinIn className="w-6 h-6  " />
+                </a>
               </div>
               <div className=" flex justify-center items-center mx-4 w-10 h-10 rounded-full bg-transparent border-2 border-solid border-[#8750f7] text-[#8750f7] hover:bg-[#2a1454] hover:text-white/80 transition-all hover:ease-in-out hover:delay-100">
-                <FaTwitter className="w-6 h-6 " />
+                <a
+                  href="https://x.com/UmohPet"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <BsTwitterX className="w-6 h-6" />
+                </a>
               </div>
             </div>
           </div>

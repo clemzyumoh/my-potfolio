@@ -5,11 +5,13 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { DiJavascript } from "react-icons/di";
 import { SiRedux } from "react-icons/si";
+import { TbBrandTypescript } from "react-icons/tb";
+import { SiExpress } from "react-icons/si";
 //import { FaFigma } from "react-icons/fa6";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-
+import { SiMongodb } from "react-icons/si";
 const Section5 = () => {
 
    const sectionRef = useRef(null);
@@ -51,7 +53,6 @@ const Section5 = () => {
           </h1>
           <p className="text-center w-[90vw]">
             We put your ideas and thus your wishes in the form of a unique web
-            
             project that inspires you and you customers.
           </p>
         </motion.div>
@@ -139,6 +140,19 @@ const Section5 = () => {
             <div className="flex justify-center items-center flex-col">
               <HoverCard
                 icon={
+                  <TbBrandTypescript className="text-gray-400 group-hover:text-[#3178C6]" />
+                }
+                cardHoverBgColor="[#2a1454]"
+                cardHoverBorderColor="[#8750f7]"
+                iconHoverColor="[#61dafb]"
+                percent={80}
+                percentColor="[#8750f7]"
+              />
+              <h3 className="text-[#8750f7] mt-5">TYPESCRIPT</h3>
+            </div>
+            <div className="flex justify-center items-center flex-col">
+              <HoverCard
+                icon={
                   <FaNodeJs className="text-gray-400 group-hover:text-[#61dafb]" />
                 }
                 cardHoverBgColor="[#2a1454]"
@@ -148,6 +162,32 @@ const Section5 = () => {
                 percentColor="[#8750f7]"
               />
               <h3 className="text-[#8750f7] mt-5">NODE</h3>
+            </div>
+            <div className="flex justify-center items-center flex-col">
+              <HoverCard
+                icon={
+                  <SiExpress className="text-gray-400 group-hover:text-[#000000]" />
+                }
+                cardHoverBgColor="[#2a1454]"
+                cardHoverBorderColor="[#8750f7]"
+                iconHoverColor="[#61dafb]"
+                percent={85}
+                percentColor="[#8750f7]"
+              />
+              <h3 className="text-[#8750f7] mt-5">EXPRESS</h3>
+            </div>
+            <div className="flex justify-center items-center flex-col">
+              <HoverCard
+                icon={
+                  <SiMongodb className="text-gray-400 group-hover:text-[#47A248]" />
+                }
+                cardHoverBgColor="[#2a1454]"
+                cardHoverBorderColor="[#8750f7]"
+                iconHoverColor="[#61dafb]"
+                percent={85}
+                percentColor="[#8750f7]"
+              />
+              <h3 className="text-[#8750f7] mt-5">MongoDB</h3>
             </div>
           </div>
         </motion.div>
