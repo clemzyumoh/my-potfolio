@@ -54,7 +54,7 @@ const Section2 = () => {
             <div className=" hidden  lg:flex justify-center items-center w-full relative py-5 ">
               <div className=" flex justify-between items-center  absolute left-8  ">
                 <p className=" text-2xl font-bold mr-5">01</p>
-                <h2 className="text-4xl text-white font-bold">
+                <h2 className="text-2xl text-white font-bold">
                   {" "}
                   Web Development
                 </h2>
@@ -73,7 +73,7 @@ const Section2 = () => {
             <div className=" hidden  md:flex lg:hidden justify-center items-center w-full relative py-2">
               <div className=" flex justify-between items-center  absolute left-8  ">
                 <p className=" text-2xl font-bold mr-5">01</p>
-                <h2 className="text-2xl text-white font-bold">
+                <h2 className="text-xl text-white font-bold">
                   {" "}
                   Web Development
                 </h2>
@@ -93,7 +93,7 @@ const Section2 = () => {
               <div className="flex justify-between items-center w-full px-3 ">
                 <div className=" flex justify-around items-center    ">
                   <p className=" text-2xl font-bold mr-3">01</p>
-                  <h2 className="text-2xl text-white font-bold">
+                  <h2 className="text-xl text-white font-bold">
                     {" "}
                     Web Development
                   </h2>
@@ -116,7 +116,7 @@ const Section2 = () => {
             <div className="hidden  lg:flex justify-center items-center w-full relative py-5 ">
               <div className=" flex justify-between items-center  absolute left-8  ">
                 <p className=" text-2xl font-bold mr-5">02</p>
-                <h2 className="text-4xl text-white font-bold">
+                <h2 className="text-2xl text-white font-bold">
                   {" "}
                   UI/UX Implementation
                 </h2>
@@ -135,7 +135,7 @@ const Section2 = () => {
             <div className=" hidden  md:flex lg:hidden justify-center items-center w-full relative py-2">
               <div className=" flex justify-between items-center  absolute left-8  ">
                 <p className=" text-2xl font-bold mr-5">02</p>
-                <h2 className="text-2xl text-white font-bold">
+                <h2 className="text-xl text-white font-bold">
                   {" "}
                   UI/UX <br /> Implementation
                 </h2>
@@ -156,7 +156,7 @@ const Section2 = () => {
               <div className="flex justify-between items-center w-full px-3 ">
                 <div className=" flex justify-around items-center    ">
                   <p className=" text-2xl font-bold mr-3">02</p>
-                  <h2 className="text-2xl text-white font-bold">
+                  <h2 className="text-xl text-white font-bold">
                     {" "}
                     UI/UX Implementation
                   </h2>
@@ -180,7 +180,7 @@ const Section2 = () => {
             <div className="hidden  lg:flex justify-center items-center w-full relative py-5 ">
               <div className=" flex justify-between items-center  absolute left-8  ">
                 <p className=" text-2xl font-bold mr-5">03</p>
-                <h2 className="text-4xl text-white font-bold">
+                <h2 className="text-2xl text-white font-bold">
                   {" "}
                   Frontend Maintenance
                 </h2>
@@ -200,7 +200,7 @@ const Section2 = () => {
             <div className=" hidden  md:flex lg:hidden justify-center items-center w-full relative py-2">
               <div className=" flex justify-between items-center  absolute left-8  ">
                 <p className=" text-2xl font-bold mr-5">03</p>
-                <h2 className="text-2xl text-white font-bold">
+                <h2 className="text-xl text-white font-bold">
                   {" "}
                   Frontend
                   <br /> Maintenance
@@ -222,7 +222,7 @@ const Section2 = () => {
               <div className="flex justify-between items-center w-full px-3 ">
                 <div className=" flex justify-around items-center    ">
                   <p className=" text-2xl font-bold mr-3">03</p>
-                  <h2 className="text-2xl text-white font-bold">
+                  <h2 className="text-xl text-white font-bold">
                     {" "}
                     Frontend Maintenance
                   </h2>
@@ -246,7 +246,7 @@ const Section2 = () => {
             <div className="hidden lg:flex justify-center items-center w-full relative py-5 ">
               <div className=" flex justify-between items-center  absolute left-8  ">
                 <p className=" text-2xl font-bold mr-5">04</p>
-                <h2 className="text-4xl text-white font-bold">
+                <h2 className="text-2xl text-white font-bold">
                   {" "}
                   Collaboration
                 </h2>
@@ -266,7 +266,7 @@ const Section2 = () => {
             <div className=" hidden  md:flex lg:hidden justify-center items-center w-full relative py-2">
               <div className=" flex justify-between items-center  absolute left-8  ">
                 <p className=" text-2xl font-bold mr-5">04</p>
-                <h2 className="text-2xl text-white font-bold">
+                <h2 className="text-xl text-white font-bold">
                   {" "}
                   Collaboration
                 </h2>
@@ -286,7 +286,7 @@ const Section2 = () => {
               <div className="flex justify-between items-center w-full px-3 ">
                 <div className=" flex justify-around items-center    ">
                   <p className=" text-2xl font-bold mr-3">04</p>
-                  <h2 className="text-2xl text-white font-bold">
+                  <h2 className="text-xl text-white font-bold">
                     {" "}
                     Collaboration
                   </h2>

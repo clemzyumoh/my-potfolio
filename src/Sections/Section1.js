@@ -7,7 +7,7 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import Resume from "../Assets/images/full-resume.pdf";
 import { BsTwitterX } from "react-icons/bs";
 
-import img from "../Assets/images/clem0.jpg";
+import img from "../Assets/images/clemzy.png";
 
 const Section1 = () => {
   return (
@@ -23,13 +23,13 @@ const Section1 = () => {
           <h2 className="font-bold text-2xl lg:text-4xl text-neutral-100">
             I am Clement Umoh
           </h2>
-          <h1 className="font-extrabold md:text-5xl text-3xl lg:text-7xl leading-[55px] my-5 lg:leading-normal mb-3 bg-gradient-to-r from-[#8750f7] via-[#885ede] to-white bg-clip-text text-transparent">
+          <h1 className="font-extrabold md:text-5xl text-3xl lg:text-5xl leading-[55px] my-5 lg:leading-normal mb-3 bg-gradient-to-r from-[#8750f7] via-[#885ede] to-white bg-clip-text text-transparent">
             Software Developer
           </h1>
           <div className="lg:hidden my-6 ">
             <div className="w-60 h-60 absolute  bottom-20 bg-[#7947df] blur-[200px] rounded-full"></div>
             <img
-              className="bg-black border-4 md:hidden border-[#8750f7]/35 w-[280px] h-[280px] rounded-full ml-10 rotate-12 hover:rotate-0 hover:border-[#8750f7] hover:  hover:transition-all"
+              className="bg-black border-4 md:hidden  w-full h-full rounded-3xl   border-[#8750f7]   transition-all"
               src={img}
               alt="avater"
             />
@@ -87,7 +87,7 @@ const Section1 = () => {
 
           {/* Image */}
           <img
-            className="bg-black border-4 border-[#8750f7]/35 lg:w-[500px] md:w-[300px] md:h-[300px] lg:h-[500px] rounded-full mr-16 rotate-12 hover:rotate-0 hover:border-[#8750f7] transition-all duration-300 ease-in-out"
+            className="bg-black border-4  md:w-full md:h-full lg:max-w-[500px] lg:max-h-[500px] rounded-3xl mr-16 border-[#8750f7] transition-all duration-300 ease-in-out"
             src={img}
             alt="avatar"
           />
