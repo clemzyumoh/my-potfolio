@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa6";
 
 
-import Resume from "../Assets/images/full-resume.pdf";
+import Resume from "../Assets/images/RESUME.pdf";
 import { BsTwitterX } from "react-icons/bs";
 
 import img from "../Assets/images/clemzy.png";
