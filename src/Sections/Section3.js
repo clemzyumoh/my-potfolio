@@ -7,6 +7,8 @@ import projectImage4 from "../Assets/images/Project6.png";
 import projectImage5 from "../Assets/images/Project7.png";
 import projectImage6 from "../Assets/images/deworld.png";
 import projectImage7 from "../Assets/images/solapay.png";
+import projectImage8 from "../Assets/images/kortex.png";
+import projectImage9 from "../Assets/images/seahorse.png";
 
 const Section3 = () => {
   const projectData = [
@@ -17,6 +19,20 @@ const Section3 = () => {
         "A full-stack decentralized invoicing platform that allows users to create, send, and pay invoices using Solana Pay. Built with Next.js, TypeScript, Tailwind CSS, Redux, Node.js, Express, MongoDB, and Passport.js for secure authentication.",
       link: "https://solapay-frontend.vercel.app/", // Link to the project
     },
+    {
+      title: "Kortex",
+      image: projectImage8,
+      description:
+        "A modern e-commerce storefront built with React, TypeScript, Tailwind CSS, and Redux for seamless state management. Features a responsive UI, dynamic product catalog, and a smooth shopping cart experience — with backend integration coming soon.",
+      link: "https://gadgetify-zeta.vercel.app/",
+    },
+{
+  title: "Seahorse Saga",
+  image: projectImage9,
+  description:
+    "An onchain game built on Solana where every player action is permanently recorded on the blockchain. Integrated Honeycomb Protocol for onchain player profiles and missions, Metaplex for in-game NFT minting, and Solana Pay for seamless NFT purchases. Built with Next.js, TypeScript, and Tailwind CSS.",
+  link: "https://sea-horse.vercel.app/",
+},
     {
       title: "MOVIE-ZONE",
       image: projectImage1,

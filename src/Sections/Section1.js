@@ -7,18 +7,23 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import Resume from "../Assets/images/RESUME.pdf";
 import { BsTwitterX } from "react-icons/bs";
 
-import img from "../Assets/images/clemzy.png";
+// import img from "../Assets/images/clemzy.png";
+// import img1 from "../Assets/images/clemzy01.jpeg";
+// import img2 from "../Assets/images/clemzy02.jpeg";
+ import img4 from "../Assets/images/clemzy04.png";
+// import img3 from "../Assets/images/clemzy03.jpeg";
+
 
 const Section1 = () => {
   return (
     <div
       id="Section1"
-      className="lg:mt-20 mt-20 py-20 relative w-[100vw] flex items-center justify-center mx-0 overflow-x-hidden">
+      className="lg:-mt-10 mt-20 py-20 relative w-[100vw] flex items-center justify-center mx-0 overflow-x-hidden">
       <h1 className="  z-0   absolute text-[20rem] font-bold text-[#1e102e] p-8 animate-pulse scale-animation  ">
         HI
       </h1>
       <div className="z-10 flex items-center justify-between w-[90vw] flex-col lg:flex-row md:flex-row  ">
-        <div className="lg:ml-12 ">
+        <div className="lg:ml-12 w-full">
           {" "}
           <h2 className="font-bold text-2xl lg:text-4xl text-neutral-100">
             I am Clement Umoh
@@ -30,7 +35,7 @@ const Section1 = () => {
             <div className="w-60 h-60 absolute  bottom-20 bg-[#7947df] blur-[200px] rounded-full"></div>
             <img
               className="bg-black border-4 md:hidden  w-full h-full rounded-3xl   border-[#8750f7]   transition-all"
-              src={img}
+              src={img4}
               alt="avater"
             />
           </div>
@@ -87,8 +92,8 @@ const Section1 = () => {
 
           {/* Image */}
           <img
-            className="bg-black border-4  md:w-full md:h-full lg:max-w-[500px] lg:max-h-[500px] rounded-3xl mr-16 border-[#8750f7] transition-all duration-300 ease-in-out"
-            src={img}
+            className="bg-black  border-4  md:w-full md:h-full scale-75  rounded-3xl mr-16 border-[#8750f7] transition-all duration-300 ease-in-out"
+            src={img4}
             alt="avatar"
           />
         </div>
